@@ -1,0 +1,42 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 463
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDefault
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 457
+    Height = 234
+    Align = alClient
+    BevelInner = bvLowered
+    TabOrder = 0
+    object ImageHint: TImage
+      AlignWithMargins = True
+      Left = 5
+      Top = 5
+      Width = 447
+      Height = 224
+      Align = alClient
+      Stretch = True
+      ExplicitLeft = 64
+      ExplicitTop = 56
+      ExplicitWidth = 105
+      ExplicitHeight = 105
+    end
+  end
+end
